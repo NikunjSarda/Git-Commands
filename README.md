@@ -127,7 +127,10 @@ git checkout .
 ```bash
 git checkout -- <file>
 ```
-
+* Reset Local Commits, commits not pushed
+```bash
+git reset --hard origin/<branch_name>
+```
 ## Configs
 * Rebase
 ```bash
