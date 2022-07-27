@@ -127,9 +127,14 @@ git checkout .
 ```bash
 git checkout -- <file>
 ```
-
+* Update side branch with mainline updates without merging
+```bash
+git fetch
+git rebase origin/mainline
+```
 ## Configs
 * Rebase
 ```bash
 git config pull.rebase true
 ```
+
