@@ -127,6 +127,10 @@ git checkout .
 ```bash
 git checkout -- <file>
 ```
+* Update side branch with mainline updates without merging
+```bash
+git fetch
+git rebase origin/mainline
 * Reset Local Commits, commits not pushed
 ```bash
 git reset --hard origin/<branch_name>
@@ -136,3 +140,4 @@ git reset --hard origin/<branch_name>
 ```bash
 git config pull.rebase true
 ```
+
