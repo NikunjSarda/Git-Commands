@@ -131,6 +131,7 @@ git checkout -- <file>
 ```bash
 git fetch
 git rebase origin/mainline
+```
 * Reset Local Commits, commits not pushed
 ```bash
 git reset --hard origin/<branch_name>
